@@ -8,7 +8,7 @@ const port = 3001;
 // middlewares
 
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://design-card-corner.web.app'],
     credentials: true,
     optionSuccessStatus: 200,
 }
